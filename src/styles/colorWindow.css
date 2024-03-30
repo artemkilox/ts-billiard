@@ -1,0 +1,34 @@
+#modal {
+  position: absolute;
+  display: none;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#modal .modal-container .modal {
+  padding: 50px;
+  border-radius: 50px;
+  background: white;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+#modal .modal-container .modal h1 {
+  text-align: center;
+}
+#modal .modal-container .modal .balls-wrapper {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#modal .modal-container .modal .balls-wrapper .ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+#modal .modal-container .modal .balls-wrapper .ball:hover {
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+/*# sourceMappingURL=colorWindow.css.map */

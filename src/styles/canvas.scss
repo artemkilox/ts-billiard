@@ -1,0 +1,10 @@
+.canvas-wrapper{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+canvas{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
