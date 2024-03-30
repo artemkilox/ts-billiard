@@ -44,7 +44,7 @@ export default class Billiard {
         y = y - this.offsetTop
         this.balls.map( ball => {
             const len = Math.sqrt(Math.pow( x - ball.x, 2) + Math.pow(y - ball.y, 2))
-            if(len < ball.rad - 5){
+            if(len < ball.rad - 15){ // хитбокс шара сделан маленьким для того, чтобы не было ложных вызовов функции
                 a =  ball.id
             }
         })
