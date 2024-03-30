@@ -35,18 +35,7 @@ const Canvas = () => {
                 new Ball(2,100, 200, 25, 'red'),
                 new Ball(3, 200, 150, 40, 'black'),
                 new Ball(4, 300, 250, 25, 'red'),
-                new Ball(5, 550, 500, 30, 'yellow'),
-                new Ball(6, 500, 350, 25, 'blue'),
-                new Ball(7, 600, 400, 30, 'orange'),
-                new Ball(8, 700, 500, 30, 'skyblue'),
-                new Ball(9, 650, 70, 50, 'green'),
-                new Ball(10, 450, 200, 40, 'red'),
-                new Ball(11, 200, 250, 25, 'black'),
-                new Ball(12, 150, 300, 30, 'red'),
-                new Ball(13, 250, 350, 25, 'yellow'),
-                new Ball(14, 100, 500, 25, 'blue'),
-                new Ball(15, 350, 500, 50, 'orange'),
-                new Ball(16, 400, 400, 30, 'skyblue'),
+                new Ball(5, 550, 500, 30, 'yellow')
             ]
             billiard = new Billiard(canvasRef.current, balls)
             start(billiard)
