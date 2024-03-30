@@ -32,8 +32,8 @@ const Canvas = () => {
         if(canvasRef.current !== null){
             balls = [
                 new Ball(1,100, 100, 50, 'green'),
-                new Ball(2,100, 200, 25, 'red'),
-                new Ball(3, 200, 150, 40, 'black'),
+                new Ball(2,100, 450, 25, 'blue'),
+                new Ball(3, 650, 150, 40, 'black'),
                 new Ball(4, 300, 250, 25, 'red'),
                 new Ball(5, 550, 500, 30, 'yellow')
             ]
